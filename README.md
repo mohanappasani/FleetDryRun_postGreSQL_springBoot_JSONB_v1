@@ -1,7 +1,7 @@
 # FleetDryRun_postGreSQL_springBoot_JSONB_v1
 Task on converting the JsonB to VARCHAR datatype in the database and inserting and retrieving the data
 
-POST CURL >
+*POST CURL* 
 >
 curl --location 'http://localhost:8080/api/data' \
 --header 'Content-Type: application/json' \
@@ -14,6 +14,6 @@ curl --location 'http://localhost:8080/api/data' \
   }
 }'
 >
-GET CURL >
+*GET CURL*
 
 curl --location 'http://localhost:8080/api/data' 
